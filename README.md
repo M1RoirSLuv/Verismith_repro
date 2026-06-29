@@ -15,9 +15,7 @@ The reproduced scope is the open-source part of the paper workflow: Verismith, Y
 ├── scripts/          # Environment checks, tool builds, fuzz runs, and bug replays
 ├── generated/        # Representative Verismith-generated Verilog samples
 ├── artifacts/        # Intermediate Verilog artifacts for exact-commit comparisons
-└── evidence/
-    ├── logs/         # Key experiment logs
-    └── screenshots/  # Terminal screenshots rendered from the logs
+└── logs/         # Key experiment logs
 ```
 
 Large generated directories are intentionally not included: full fuzz output folders, `dist-newstyle/`, old Yosys/Icarus source trees, binary tools, and large build logs. The repository is intended to preserve the reproduction scripts and evidence, not the whole local working directory.
