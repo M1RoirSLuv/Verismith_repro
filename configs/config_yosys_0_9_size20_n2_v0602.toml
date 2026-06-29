@@ -1,0 +1,41 @@
+[info]
+  commit = "UNKNOWN"
+  version = "0.6.0.2"
+
+[probability]
+  expr.binary = 5
+  expr.concatenation = 3
+  expr.number = 1
+  expr.rangeselect = 5
+  expr.signed = 5
+  expr.string = 0
+  expr.ternary = 5
+  expr.unary = 5
+  expr.unsigned = 5
+  expr.variable = 5
+  moditem.assign = 5
+  moditem.combinational = 0
+  moditem.instantiation = 1
+  moditem.sequential = 1
+  statement.blocking = 0
+  statement.conditional = 1
+  statement.forloop = 1
+  statement.nonblocking = 5
+
+[property]
+  default.yosys = "/usr/bin"
+  determinism = 1
+  module.depth = 2
+  module.max = 5
+  nondeterminism = 0
+  output.combine = false
+  sample.method = "hat"
+  sample.size = 2
+  size = 20
+  statement.depth = 3
+
+[[synthesiser]]
+  bin = "/home/m1roirs/yosys_versions/0.9/bin"
+  description = "yosys_0_9_size20"
+  name = "yosys"
+  output = "syn_yosys_0_9_size20.v"

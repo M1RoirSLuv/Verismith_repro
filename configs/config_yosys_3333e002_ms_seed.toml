@@ -1,0 +1,35 @@
+[probability]
+  expr.binary = 5
+  expr.concatenation = 3
+  expr.number = 1
+  expr.rangeselect = 5
+  expr.signed = 5
+  expr.string = 0
+  expr.ternary = 5
+  expr.unary = 5
+  expr.unsigned = 5
+  expr.variable = 5
+  moditem.assign = 5
+  moditem.combinational = 1
+  moditem.instantiation = 1
+  moditem.sequential = 1
+  statement.blocking = 0
+  statement.conditional = 1
+  statement.forloop = 0
+  statement.nonblocking = 3
+
+[property]
+  module.depth = 2
+  module.max = 5
+  size = 20
+  statement.depth = 3
+  sample.method = "random"
+  sample.size = 10
+  seed = "Seed 6762640716476645086 15760899726111280279"
+  default.yosys = "/usr/bin/yosys"
+
+[[synthesiser]]
+  bin = "/home/m1roirs/yosys_versions/3333e002/bin"
+  description = "yosys_3333e002"
+  name = "yosys"
+  output = "syn_yosys_3333e002.v"

@@ -1,0 +1,34 @@
+[probability]
+  expr.binary = 4
+  expr.concatenation = 2
+  expr.number = 2
+  expr.rangeselect = 2
+  expr.signed = 2
+  expr.string = 0
+  expr.ternary = 2
+  expr.unary = 2
+  expr.unsigned = 2
+  expr.variable = 4
+  moditem.assign = 2
+  moditem.combinational = 0
+  moditem.instantiation = 0
+  moditem.sequential = 2
+  statement.blocking = 0
+  statement.conditional = 1
+  statement.forloop = 0
+  statement.nonblocking = 2
+
+[property]
+  module.depth = 1
+  module.max = 2
+  size = 6
+  statement.depth = 2
+  sample.method = "hat"
+  sample.size = 10
+  default.yosys = "/usr/bin/yosys"
+
+[[synthesiser]]
+  description = "yosys"
+  name = "yosys"
+  output = "syn_yosys.v"
+  bin = "/usr/bin"
