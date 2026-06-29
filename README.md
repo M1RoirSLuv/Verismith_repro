@@ -12,10 +12,12 @@ The reproduced scope is the open-source part of the paper workflow: Verismith, Y
 .
 ├── configs/          # Verismith 0.6.0.2 experiment configurations
 ├── bugs/             # Minimized Verilog bug cases extracted from upstream records
-├── scripts/          # Environment checks, tool builds, fuzz runs, and bug replays
+├── scripts/          # Organized environment, build, experiment, and analysis scripts
 ├── generated/        # Representative Verismith-generated Verilog samples
 ├── artifacts/        # Intermediate Verilog artifacts for exact-commit comparisons
-└── logs/         # Key experiment logs
+└── evidence/
+    ├── logs/         # Key experiment logs
+    └── screenshots/  # Terminal screenshots rendered from the logs
 ```
 
 Large generated directories are intentionally not included: full fuzz output folders, `dist-newstyle/`, old Yosys/Icarus source trees, binary tools, and large build logs. The repository is intended to preserve the reproduction scripts and evidence, not the whole local working directory.
@@ -45,7 +47,7 @@ The local scripts use these paths:
 /usr/bin/yosys-abc
 ```
 
-If the repository is run on another machine, update absolute paths in `configs/*.toml` and `scripts/*.sh`.
+If the repository is run on another machine, update absolute paths in `configs/*.toml` and the relevant scripts under `scripts/`.
 
 ## Quick Reproduction
 
@@ -54,40 +56,40 @@ Run from the repository root in WSL Ubuntu.
 Collect tool versions:
 
 ```bash
-bash scripts/collect_open_source_versions_v0602.sh
+bash scripts/env/collect_open_source_versions_v0602.sh
 ```
 
 Make old Yosys builds find the system ABC binary:
 
 ```bash
-bash scripts/link_system_abc_for_old_yosys.sh
+bash scripts/env/link_system_abc_for_old_yosys.sh
 ```
 
 Replay the paper/artifact seed cases:
 
 ```bash
-bash scripts/run_paper_seed_cases_v0602_after_abc.sh
+bash scripts/experiments/run_paper_seed_cases_v0602_after_abc.sh
 ```
 
 Replay known Yosys bugs and exact affected/fixed commit comparisons:
 
 ```bash
-bash scripts/run_known_yosys_direct_bugs.sh
-bash scripts/run_yosys_exact_bug_cases.sh
-bash scripts/run_yosys_affected_fixed_compare.sh
+bash scripts/experiments/run_known_yosys_direct_bugs.sh
+bash scripts/experiments/run_yosys_exact_bug_cases.sh
+bash scripts/experiments/run_yosys_affected_fixed_compare.sh
 ```
 
 Replay Icarus Verilog Issue 283:
 
 ```bash
-bash scripts/run_icarus_issue283_current.sh
-bash scripts/run_icarus_issue283_10_3.sh
+bash scripts/experiments/run_icarus_issue283_current.sh
+bash scripts/experiments/run_icarus_issue283_10_3.sh
 ```
 
 Run the small program-size sweep:
 
 ```bash
-bash scripts/run_size_sweep_sby_20_30_40_v0602.sh
+bash scripts/experiments/run_size_sweep_sby_20_30_40_v0602.sh
 ```
 
 ## Evidence Summary
