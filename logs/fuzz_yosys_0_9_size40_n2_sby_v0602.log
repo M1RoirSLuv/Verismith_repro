@@ -1,0 +1,31 @@
+=== size=40, n=2, yosys 0.9, PATH includes sby ===
+/home/m1roirs/.local/bin/sby
+Verismith 15:40:00 fuzz_1 - Sampling Verilog from generator
+Verismith 15:40:00 fuzz_1 - Using the hat function
+Verismith 15:40:01 fuzz_1 - Chose Seed 15617933056337737410 15691207161884077621
+Verismith 15:40:01 fuzz_1 - Generated Verilog (1.084020296s)
+Verismith 15:40:01 fuzz_1 - ### Starting Synthesis ###
+Verismith 15:40:01 fuzz_1 - Running synthesis with identity
+Verismith 15:40:01 fuzz_1 - Finished synthesis with identity (0.078640896s,Pass ())
+Verismith 15:40:01 fuzz_1 - Running synthesis with yosys_0_9_size40
+Verismith 15:45:02 fuzz_1 - Finished synthesis with yosys_0_9_size40 (300.090417374s,Fail TimeoutError)
+[(0.078640896s,Pass ()),(300.090417374s,Fail TimeoutError)]
+Verismith 15:45:02 fuzz_1 - ### Finished Synthesis (300.169333472s) ###
+Verismith 15:45:02 fuzz_1 - ### Starting Equivalence Check ###
+[]
+Verismith 15:45:02 fuzz_1 - ### Finished Equivalence Check (0.000012392s) ###
+Verismith 15:45:02 fuzz_1 - ### Starting Simulation ###
+Verismith 15:45:02 fuzz_1 - Running simulation for identity
+Verismith 15:45:05 fuzz_1 - Finished simulation for identity (3.131150951s,Pass "\135X\147@\230\&7\185\177")
+Verismith 15:45:05 fuzz_1 - Running simulation for identity
+Verismith 15:45:08 fuzz_1 - Finished simulation for identity (3.231178631s,Pass "\135X\147@\230\&7\185\177")
+[Pass "87589340e6",Pass "87589340e6"]
+Verismith 15:45:08 fuzz_1 - ### Finished Simulation (6.369030096s) ###
+Verismith 15:45:08 fuzz_2 - Sampling Verilog from generator
+Verismith 15:45:08 fuzz_2 - Using the hat function
+Verismith 15:45:09 fuzz_2 - Chose Seed 6676194964494998048 7642295007971564929
+Verismith 15:45:09 fuzz_2 - Generated Verilog (1.359083935s)
+Verismith 15:45:09 fuzz_2 - ### Starting Synthesis ###
+Verismith 15:45:09 fuzz_2 - Running synthesis with identity
+Verismith 15:45:09 fuzz_2 - Finished synthesis with identity (0.095713039s,Pass ())
+Verismith 15:45:09 fuzz_2 - Running synthesis with yosys_0_9_size40

@@ -1,0 +1,89 @@
+=== Issue 993 affected 70d0f38 ===
+Yosys 0.8+411 (git sha1 70d0f389a, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 134
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 18446744073709551615) >= this->size() (which is 0)
+
+=== Issue 993 fixed b37c31e ===
+Yosys 0.8+416 (git sha1 b37c31e2c, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+9:  reg \reg2_reg[0]  = 1'h0;
+11:      \reg2_reg[0]  <= 1'h1;
+14:  assign reg2[1] = 1'h0;
+15:  assign y = { 1'h0, reg2[0] };
+
+=== Issue 997 affected 09467bb9 ===
+Yosys 0.8+450 (git sha1 09467bb9a, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+6:  input wire4;
+8:  reg \reg10_reg[0]  = 1'hx;
+10:      \reg10_reg[0]  <= wire4;
+11:  assign reg10[0] = \reg10_reg[0] ;
+13:  assign y = { reg10[0], reg10[0] };
+
+=== Issue 997 fixed 33738c1 ===
+Yosys 0.8+452 (git sha1 33738c174, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+6:  input wire4;
+8:  reg \reg10_reg[0]  = 1'h0;
+10:      \reg10_reg[0]  <= wire4;
+11:  assign reg10[0] = \reg10_reg[0] ;
+13:  assign y = { reg10[0], reg10[0] };
+
+=== Issue 1047 affected 92dde319 ===
+Yosys 0.8+498 (git sha1 92dde319f, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+6:  input [2:0] w;
+9:  assign _0_ = _1_ | w[2];
+10:  assign y = ~_0_;
+
+=== Issue 1047 fixed 349c472 ===
+Yosys 0.8+506 (git sha1 349c47250, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+6:  input [2:0] w;
+10:  assign y = ~_1_;
+11:  assign _0_[1:0] = { w[0], 1'h0 };
+
+=== Issue 1243 affected acd8bc0a ===
+Yosys 0.8+618 (git sha1 acd8bc0a7, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+3:module top(y, clk, sel);
+7:  input sel;
+9:  assign reg_assign = 1'h0;
+11:  assign y = 1'h0;
+
+=== Issue 1243 fixed 39f4c10 ===
+Yosys 0.8+634 (git sha1 39f4c1096, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+3:module top(y, clk, sel);
+5:  reg reg_assign = 1'h0;
+7:  input sel;
+10:      reg_assign <= sel;
+12:  assign y = reg_assign;
+
+=== Issue 1531 affected 0466c485 ===
+Yosys 0.9+932 (git sha1 0466c4853, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+6:  input w;
+8:  reg y = 1'h0;
+10:      y <= 1'h1;
+
+=== Issue 1531 later commit 4b18a45, still marked not fixed in bug report ===
+Yosys 0.9+932 (git sha1 4b18a4528, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+6:  input w;
+8:  reg y = 1'h0;
+10:      y <= 1'h1;
+
+=== Yosys_11 affected 0.9, unreported fixed-by example ===
+Yosys 0.9 (git sha1 1979e0b1f, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+8:  reg \reg2_reg[0]  = 1'h0;
+10:      \reg2_reg[0]  <= 1'h1;
+14:  assign y = reg2[0];
+
+=== Yosys_11 fixed 4b18a45, unreported fixed-by example ===
+Yosys 0.9+932 (git sha1 4b18a4528, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+exit code: 0
+10:  assign y = 1'h0;
+

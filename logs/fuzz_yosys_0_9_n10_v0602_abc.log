@@ -1,0 +1,250 @@
+Verismith 15:52:29 fuzz_1 - Sampling Verilog from generator
+Verismith 15:52:29 fuzz_1 - Using the hat function
+Verismith 15:52:30 fuzz_1 - Chose Seed 3768883563182207759 11995383220306715405
+Verismith 15:52:30 fuzz_1 - Generated Verilog (0.714087752s)
+Verismith 15:52:30 fuzz_1 - ### Starting Synthesis ###
+Verismith 15:52:30 fuzz_1 - Running synthesis with identity
+Verismith 15:52:30 fuzz_1 - Finished synthesis with identity (0.051799776s,Pass ())
+Verismith 15:52:30 fuzz_1 - Running synthesis with yosys_0_9
+Verismith 15:54:14 fuzz_1 - Finished synthesis with yosys_0_9 (104.261054574s,Pass ())
+[(0.051799776s,Pass ()),(104.261054574s,Pass ())]
+Verismith 15:54:14 fuzz_1 - ### Finished Synthesis (104.314474779s) ###
+Verismith 15:54:14 fuzz_1 - ### Starting Equivalence Check ###
+Verismith 15:54:14 fuzz_1 - Running equivalence check for identity and yosys_0_9
+Verismith 15:54:23 fuzz_1 - Finished equivalence check for identity and yosys_0_9 (9.033741668s,Pass ())
+[(9.033741668s,Pass ())]
+Verismith 15:54:23 fuzz_1 - ### Finished Equivalence Check (9.03423277s) ###
+Verismith 15:54:23 fuzz_1 - ### Starting Simulation ###
+Verismith 15:54:23 fuzz_1 - Running simulation for identity
+Verismith 15:54:25 fuzz_1 - Finished simulation for identity (2.259989265s,Pass "\DEL\GS\183\242\221\251\ETXl")
+Verismith 15:54:25 fuzz_1 - Running simulation for identity
+Verismith 15:54:28 fuzz_1 - Finished simulation for identity (2.475484774s,Pass "\DEL\GS\183\242\221\251\ETXl")
+Verismith 15:54:28 fuzz_1 - Running simulation for yosys_0_9
+Verismith 15:54:29 fuzz_1 - Finished simulation for yosys_0_9 (1.494795521s,Pass "\DEL\GS\183\242\221\251\ETXl")
+[Pass "7f1db7f2dd",Pass "7f1db7f2dd",Pass "7f1db7f2dd"]
+Verismith 15:54:29 fuzz_1 - ### Finished Simulation (6.235602828s) ###
+Verismith 15:54:29 fuzz_2 - Sampling Verilog from generator
+Verismith 15:54:29 fuzz_2 - Using the hat function
+Verismith 15:54:30 fuzz_2 - Chose Seed 2466220018363040582 4113848420801613031
+Verismith 15:54:30 fuzz_2 - Generated Verilog (0.368973165s)
+Verismith 15:54:30 fuzz_2 - ### Starting Synthesis ###
+Verismith 15:54:30 fuzz_2 - Running synthesis with identity
+Verismith 15:54:30 fuzz_2 - Finished synthesis with identity (0.064040826s,Pass ())
+Verismith 15:54:30 fuzz_2 - Running synthesis with yosys_0_9
+Verismith 15:56:09 fuzz_2 - Finished synthesis with yosys_0_9 (99.644301086s,Pass ())
+[(0.064040826s,Pass ()),(99.644301086s,Pass ())]
+Verismith 15:56:09 fuzz_2 - ### Finished Synthesis (99.710047135s) ###
+Verismith 15:56:09 fuzz_2 - ### Starting Equivalence Check ###
+Verismith 15:56:09 fuzz_2 - Running equivalence check for identity and yosys_0_9
+Verismith 15:56:17 fuzz_2 - Finished equivalence check for identity and yosys_0_9 (7.496178912s,Pass ())
+[(7.496178912s,Pass ())]
+Verismith 15:56:17 fuzz_2 - ### Finished Equivalence Check (7.496888816s) ###
+Verismith 15:56:17 fuzz_2 - ### Starting Simulation ###
+Verismith 15:56:17 fuzz_2 - Running simulation for identity
+Verismith 15:56:18 fuzz_2 - Finished simulation for identity (1.715697671s,Pass "\161>\131)f})\ENQ")
+Verismith 15:56:19 fuzz_2 - Running simulation for identity
+Verismith 15:56:20 fuzz_2 - Finished simulation for identity (1.784687656s,Pass "\161>\131)f})\ENQ")
+Verismith 15:56:20 fuzz_2 - Running simulation for yosys_0_9
+Verismith 15:56:21 fuzz_2 - Finished simulation for yosys_0_9 (0.797518264s,Pass "\161>\131)f})\ENQ")
+[Pass "a13e832966",Pass "a13e832966",Pass "a13e832966"]
+Verismith 15:56:21 fuzz_2 - ### Finished Simulation (4.300419652s) ###
+Verismith 15:56:21 fuzz_3 - Sampling Verilog from generator
+Verismith 15:56:21 fuzz_3 - Using the hat function
+Verismith 15:56:21 fuzz_3 - Chose Seed 11205615077625411756 7000808623567412771
+Verismith 15:56:21 fuzz_3 - Generated Verilog (0.279172097s)
+Verismith 15:56:21 fuzz_3 - ### Starting Synthesis ###
+Verismith 15:56:21 fuzz_3 - Running synthesis with identity
+Verismith 15:56:21 fuzz_3 - Finished synthesis with identity (0.058868656s,Pass ())
+Verismith 15:56:21 fuzz_3 - Running synthesis with yosys_0_9
+Verismith 15:57:18 fuzz_3 - Finished synthesis with yosys_0_9 (56.591241609s,Pass ())
+[(0.058868656s,Pass ()),(56.591241609s,Pass ())]
+Verismith 15:57:18 fuzz_3 - ### Finished Synthesis (56.652095679s) ###
+Verismith 15:57:18 fuzz_3 - ### Starting Equivalence Check ###
+Verismith 15:57:18 fuzz_3 - Running equivalence check for identity and yosys_0_9
+Verismith 15:57:21 fuzz_3 - Finished equivalence check for identity and yosys_0_9 (3.336082561s,Pass ())
+[(3.336082561s,Pass ())]
+Verismith 15:57:21 fuzz_3 - ### Finished Equivalence Check (3.336407869s) ###
+Verismith 15:57:21 fuzz_3 - ### Starting Simulation ###
+Verismith 15:57:21 fuzz_3 - Running simulation for identity
+Verismith 15:57:23 fuzz_3 - Finished simulation for identity (1.241489753s,Pass "\218r\238\129N\169dp")
+Verismith 15:57:23 fuzz_3 - Running simulation for identity
+Verismith 15:57:24 fuzz_3 - Finished simulation for identity (1.173099295s,Pass "\218r\238\129N\169dp")
+Verismith 15:57:24 fuzz_3 - Running simulation for yosys_0_9
+Verismith 15:57:24 fuzz_3 - Finished simulation for yosys_0_9 (0.446933556s,Pass "\218r\238\129N\169dp")
+[Pass "da72ee814e",Pass "da72ee814e",Pass "da72ee814e"]
+Verismith 15:57:24 fuzz_3 - ### Finished Simulation (2.863308684s) ###
+Verismith 15:57:24 fuzz_4 - Sampling Verilog from generator
+Verismith 15:57:24 fuzz_4 - Using the hat function
+Verismith 15:57:25 fuzz_4 - Chose Seed 2439134690850447746 5511630277915544417
+Verismith 15:57:25 fuzz_4 - Generated Verilog (0.51960982s)
+Verismith 15:57:25 fuzz_4 - ### Starting Synthesis ###
+Verismith 15:57:25 fuzz_4 - Running synthesis with identity
+Verismith 15:57:25 fuzz_4 - Finished synthesis with identity (0.047213427s,Pass ())
+Verismith 15:57:25 fuzz_4 - Running synthesis with yosys_0_9
+Verismith 15:59:16 fuzz_4 - Finished synthesis with yosys_0_9 (111.034672774s,Pass ())
+[(0.047213427s,Pass ()),(111.034672774s,Pass ())]
+Verismith 15:59:16 fuzz_4 - ### Finished Synthesis (111.083436719s) ###
+Verismith 15:59:16 fuzz_4 - ### Starting Equivalence Check ###
+Verismith 15:59:16 fuzz_4 - Running equivalence check for identity and yosys_0_9
+Verismith 15:59:23 fuzz_4 - Finished equivalence check for identity and yosys_0_9 (7.122787144s,Pass ())
+[(7.122787144s,Pass ())]
+Verismith 15:59:23 fuzz_4 - ### Finished Equivalence Check (7.123216564s) ###
+Verismith 15:59:23 fuzz_4 - ### Starting Simulation ###
+Verismith 15:59:23 fuzz_4 - Running simulation for identity
+Verismith 15:59:25 fuzz_4 - Finished simulation for identity (1.562229336s,Pass "\241?\188\&1\NAK\134f\244")
+Verismith 15:59:25 fuzz_4 - Running simulation for identity
+Verismith 15:59:26 fuzz_4 - Finished simulation for identity (1.574889702s,Pass "\241?\188\&1\NAK\134f\244")
+Verismith 15:59:26 fuzz_4 - Running simulation for yosys_0_9
+Verismith 15:59:27 fuzz_4 - Finished simulation for yosys_0_9 (0.709493318s,Pass "\241?\188\&1\NAK\134f\244")
+[Pass "f13fbc3115",Pass "f13fbc3115",Pass "f13fbc3115"]
+Verismith 15:59:27 fuzz_4 - ### Finished Simulation (3.849243986s) ###
+Verismith 15:59:27 fuzz_5 - Sampling Verilog from generator
+Verismith 15:59:27 fuzz_5 - Using the hat function
+Verismith 15:59:28 fuzz_5 - Chose Seed 6544382080196718714 727651446173625075
+Verismith 15:59:28 fuzz_5 - Generated Verilog (0.612720497s)
+Verismith 15:59:28 fuzz_5 - ### Starting Synthesis ###
+Verismith 15:59:28 fuzz_5 - Running synthesis with identity
+Verismith 15:59:28 fuzz_5 - Finished synthesis with identity (0.041483148s,Pass ())
+Verismith 15:59:28 fuzz_5 - Running synthesis with yosys_0_9
+Verismith 16:01:40 fuzz_5 - Finished synthesis with yosys_0_9 (132.304448989s,Pass ())
+[(0.041483148s,Pass ()),(132.304448989s,Pass ())]
+Verismith 16:01:40 fuzz_5 - ### Finished Synthesis (132.347236926s) ###
+Verismith 16:01:40 fuzz_5 - ### Starting Equivalence Check ###
+Verismith 16:01:40 fuzz_5 - Running equivalence check for identity and yosys_0_9
+Verismith 16:01:54 fuzz_5 - Finished equivalence check for identity and yosys_0_9 (14.571163674s,Pass ())
+[(14.571163674s,Pass ())]
+Verismith 16:01:54 fuzz_5 - ### Finished Equivalence Check (14.572126341s) ###
+Verismith 16:01:54 fuzz_5 - ### Starting Simulation ###
+Verismith 16:01:54 fuzz_5 - Running simulation for identity
+Verismith 16:01:57 fuzz_5 - Finished simulation for identity (2.491760394s,Pass "\tY\DC4\159\222O\168u")
+Verismith 16:01:57 fuzz_5 - Running simulation for identity
+Verismith 16:01:59 fuzz_5 - Finished simulation for identity (2.483945428s,Pass "\tY\DC4\159\222O\168u")
+Verismith 16:01:59 fuzz_5 - Running simulation for yosys_0_9
+Verismith 16:02:01 fuzz_5 - Finished simulation for yosys_0_9 (1.221119094s,Pass "\tY\DC4\159\222O\168u")
+[Pass "0959149fde",Pass "0959149fde",Pass "0959149fde"]
+Verismith 16:02:01 fuzz_5 - ### Finished Simulation (6.200292942s) ###
+Verismith 16:02:01 fuzz_6 - Sampling Verilog from generator
+Verismith 16:02:01 fuzz_6 - Using the hat function
+Verismith 16:02:01 fuzz_6 - Chose Seed 10025977805136026815 1619993486777004921
+Verismith 16:02:01 fuzz_6 - Generated Verilog (0.46479761s)
+Verismith 16:02:01 fuzz_6 - ### Starting Synthesis ###
+Verismith 16:02:01 fuzz_6 - Running synthesis with identity
+Verismith 16:02:01 fuzz_6 - Finished synthesis with identity (0.036328172s,Pass ())
+Verismith 16:02:01 fuzz_6 - Running synthesis with yosys_0_9
+Verismith 16:03:20 fuzz_6 - Finished synthesis with yosys_0_9 (78.951421209s,Pass ())
+[(0.036328172s,Pass ()),(78.951421209s,Pass ())]
+Verismith 16:03:20 fuzz_6 - ### Finished Synthesis (78.989183342s) ###
+Verismith 16:03:20 fuzz_6 - ### Starting Equivalence Check ###
+Verismith 16:03:20 fuzz_6 - Running equivalence check for identity and yosys_0_9
+Verismith 16:03:26 fuzz_6 - Finished equivalence check for identity and yosys_0_9 (5.398071096s,Pass ())
+[(5.398071096s,Pass ())]
+Verismith 16:03:26 fuzz_6 - ### Finished Equivalence Check (5.398572279s) ###
+Verismith 16:03:26 fuzz_6 - ### Starting Simulation ###
+Verismith 16:03:26 fuzz_6 - Running simulation for identity
+Verismith 16:03:28 fuzz_6 - Finished simulation for identity (2.051611519s,Pass "\a\255\198\242\132\232\NAK\ESC")
+Verismith 16:03:28 fuzz_6 - Running simulation for identity
+Verismith 16:03:30 fuzz_6 - Finished simulation for identity (2.000682523s,Pass "\a\255\198\242\132\232\NAK\ESC")
+Verismith 16:03:30 fuzz_6 - Running simulation for yosys_0_9
+Verismith 16:03:30 fuzz_6 - Finished simulation for yosys_0_9 (0.740291958s,Pass "\a\255\198\242\132\232\NAK\ESC")
+[Pass "07ffc6f284",Pass "07ffc6f284",Pass "07ffc6f284"]
+Verismith 16:03:30 fuzz_6 - ### Finished Simulation (4.795285475s) ###
+Verismith 16:03:30 fuzz_7 - Sampling Verilog from generator
+Verismith 16:03:30 fuzz_7 - Using the hat function
+Verismith 16:03:31 fuzz_7 - Chose Seed 4154600651156813896 13030736893640972537
+Verismith 16:03:31 fuzz_7 - Generated Verilog (0.449426982s)
+Verismith 16:03:31 fuzz_7 - ### Starting Synthesis ###
+Verismith 16:03:31 fuzz_7 - Running synthesis with identity
+Verismith 16:03:31 fuzz_7 - Finished synthesis with identity (0.042497649s,Pass ())
+Verismith 16:03:31 fuzz_7 - Running synthesis with yosys_0_9
+Verismith 16:04:52 fuzz_7 - Finished synthesis with yosys_0_9 (81.298682446s,Pass ())
+[(0.042497649s,Pass ()),(81.298682446s,Pass ())]
+Verismith 16:04:52 fuzz_7 - ### Finished Synthesis (81.342792533s) ###
+Verismith 16:04:52 fuzz_7 - ### Starting Equivalence Check ###
+Verismith 16:04:52 fuzz_7 - Running equivalence check for identity and yosys_0_9
+Verismith 16:04:58 fuzz_7 - Finished equivalence check for identity and yosys_0_9 (5.469594806s,Pass ())
+[(5.469594806s,Pass ())]
+Verismith 16:04:58 fuzz_7 - ### Finished Equivalence Check (5.471104917s) ###
+Verismith 16:04:58 fuzz_7 - ### Starting Simulation ###
+Verismith 16:04:58 fuzz_7 - Running simulation for identity
+Verismith 16:04:59 fuzz_7 - Finished simulation for identity (1.505586268s,Pass "wI\b\193\255\244Ns")
+Verismith 16:04:59 fuzz_7 - Running simulation for identity
+Verismith 16:05:00 fuzz_7 - Finished simulation for identity (1.309204311s,Pass "wI\b\193\255\244Ns")
+Verismith 16:05:00 fuzz_7 - Running simulation for yosys_0_9
+Verismith 16:05:01 fuzz_7 - Finished simulation for yosys_0_9 (0.563516858s,Pass "wI\b\193\255\244Ns")
+[Pass "774908c1ff",Pass "774908c1ff",Pass "774908c1ff"]
+Verismith 16:05:01 fuzz_7 - ### Finished Simulation (3.380599129s) ###
+Verismith 16:05:01 fuzz_8 - Sampling Verilog from generator
+Verismith 16:05:01 fuzz_8 - Using the hat function
+Verismith 16:05:01 fuzz_8 - Chose Seed 5967892679491549266 1672182902952079551
+Verismith 16:05:01 fuzz_8 - Generated Verilog (0.429578433s)
+Verismith 16:05:01 fuzz_8 - ### Starting Synthesis ###
+Verismith 16:05:01 fuzz_8 - Running synthesis with identity
+Verismith 16:05:02 fuzz_8 - Finished synthesis with identity (0.040125019s,Pass ())
+Verismith 16:05:02 fuzz_8 - Running synthesis with yosys_0_9
+Verismith 16:06:39 fuzz_8 - Finished synthesis with yosys_0_9 (97.201145161s,Pass ())
+[(0.040125019s,Pass ()),(97.201145161s,Pass ())]
+Verismith 16:06:39 fuzz_8 - ### Finished Synthesis (97.247441987s) ###
+Verismith 16:06:39 fuzz_8 - ### Starting Equivalence Check ###
+Verismith 16:06:39 fuzz_8 - Running equivalence check for identity and yosys_0_9
+Verismith 16:06:45 fuzz_8 - Finished equivalence check for identity and yosys_0_9 (6.245629261s,Pass ())
+[(6.245629261s,Pass ())]
+Verismith 16:06:45 fuzz_8 - ### Finished Equivalence Check (6.247014577s) ###
+Verismith 16:06:45 fuzz_8 - ### Starting Simulation ###
+Verismith 16:06:45 fuzz_8 - Running simulation for identity
+Verismith 16:06:47 fuzz_8 - Finished simulation for identity (1.63131285s,Pass "\244Z\167\167\244\206\181S")
+Verismith 16:06:47 fuzz_8 - Running simulation for identity
+Verismith 16:06:48 fuzz_8 - Finished simulation for identity (1.756991188s,Pass "\244Z\167\167\244\206\181S")
+Verismith 16:06:48 fuzz_8 - Running simulation for yosys_0_9
+Verismith 16:06:49 fuzz_8 - Finished simulation for yosys_0_9 (0.656851121s,Pass "\244Z\167\167\244\206\181S")
+[Pass "f45aa7a7f4",Pass "f45aa7a7f4",Pass "f45aa7a7f4"]
+Verismith 16:06:49 fuzz_8 - ### Finished Simulation (4.047548122s) ###
+Verismith 16:06:49 fuzz_9 - Sampling Verilog from generator
+Verismith 16:06:49 fuzz_9 - Using the hat function
+Verismith 16:06:49 fuzz_9 - Chose Seed 14087428022186517159 8993620911357784215
+Verismith 16:06:49 fuzz_9 - Generated Verilog (0.422232657s)
+Verismith 16:06:49 fuzz_9 - ### Starting Synthesis ###
+Verismith 16:06:49 fuzz_9 - Running synthesis with identity
+Verismith 16:06:50 fuzz_9 - Finished synthesis with identity (0.060811807s,Pass ())
+Verismith 16:06:50 fuzz_9 - Running synthesis with yosys_0_9
+Verismith 16:08:31 fuzz_9 - Finished synthesis with yosys_0_9 (101.261664325s,Pass ())
+[(0.060811807s,Pass ()),(101.261664325s,Pass ())]
+Verismith 16:08:31 fuzz_9 - ### Finished Synthesis (101.32370225s) ###
+Verismith 16:08:31 fuzz_9 - ### Starting Equivalence Check ###
+Verismith 16:08:31 fuzz_9 - Running equivalence check for identity and yosys_0_9
+Verismith 16:08:38 fuzz_9 - Finished equivalence check for identity and yosys_0_9 (7.672137985s,Pass ())
+[(7.672137985s,Pass ())]
+Verismith 16:08:38 fuzz_9 - ### Finished Equivalence Check (7.672885685s) ###
+Verismith 16:08:38 fuzz_9 - ### Starting Simulation ###
+Verismith 16:08:38 fuzz_9 - Running simulation for identity
+Verismith 16:08:41 fuzz_9 - Finished simulation for identity (2.04202342s,Pass "Y\168?\SO\210\232/\222")
+Verismith 16:08:41 fuzz_9 - Running simulation for identity
+Verismith 16:08:43 fuzz_9 - Finished simulation for identity (2.048446489s,Pass "Y\168?\SO\210\232/\222")
+Verismith 16:08:43 fuzz_9 - Running simulation for yosys_0_9
+Verismith 16:08:43 fuzz_9 - Finished simulation for yosys_0_9 (0.760623198s,Pass "Y\168?\SO\210\232/\222")
+[Pass "59a83f0ed2",Pass "59a83f0ed2",Pass "59a83f0ed2"]
+Verismith 16:08:43 fuzz_9 - ### Finished Simulation (4.854431621s) ###
+Verismith 16:08:43 fuzz_10 - Sampling Verilog from generator
+Verismith 16:08:43 fuzz_10 - Using the hat function
+Verismith 16:08:44 fuzz_10 - Chose Seed 866219926735361434 16592996167026919841
+Verismith 16:08:44 fuzz_10 - Generated Verilog (0.572644453s)
+Verismith 16:08:44 fuzz_10 - ### Starting Synthesis ###
+Verismith 16:08:44 fuzz_10 - Running synthesis with identity
+Verismith 16:08:44 fuzz_10 - Finished synthesis with identity (0.047623923s,Pass ())
+Verismith 16:08:44 fuzz_10 - Running synthesis with yosys_0_9
+Verismith 16:10:42 fuzz_10 - Finished synthesis with yosys_0_9 (118.13799798s,Pass ())
+[(0.047623923s,Pass ()),(118.13799798s,Pass ())]
+Verismith 16:10:42 fuzz_10 - ### Finished Synthesis (118.186526329s) ###
+Verismith 16:10:42 fuzz_10 - ### Starting Equivalence Check ###
+Verismith 16:10:42 fuzz_10 - Running equivalence check for identity and yosys_0_9
+Verismith 16:10:52 fuzz_10 - Finished equivalence check for identity and yosys_0_9 (10.329430253s,Pass ())
+[(10.329430253s,Pass ())]
+Verismith 16:10:52 fuzz_10 - ### Finished Equivalence Check (10.329907509s) ###
+Verismith 16:10:52 fuzz_10 - ### Starting Simulation ###
+Verismith 16:10:52 fuzz_10 - Running simulation for identity
+Verismith 16:10:54 fuzz_10 - Finished simulation for identity (1.438220695s,Pass "\246\255\135NfF\n\235")
+Verismith 16:10:54 fuzz_10 - Running simulation for identity
+Verismith 16:10:55 fuzz_10 - Finished simulation for identity (1.341617892s,Pass "\246\255\135NfF\n\235")
+Verismith 16:10:55 fuzz_10 - Running simulation for yosys_0_9
+Verismith 16:10:56 fuzz_10 - Finished simulation for yosys_0_9 (1.037197427s,Pass "\246\255\135NfF\n\235")
+[Pass "f6ff874e66",Pass "f6ff874e66",Pass "f6ff874e66"]
+Verismith 16:10:56 fuzz_10 - ### Finished Simulation (3.819484095s) ###

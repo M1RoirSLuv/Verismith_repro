@@ -1,0 +1,52 @@
+=== OS ===
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.4 LTS
+Release:	24.04
+Codename:	noble
+=== Verismith paper version ===
+Verismith 0.6.0.2 (UNKNOWN UNKNOWN)
+=== Verismith default on PATH ===
+/home/m1roirs/.local/bin/verismith
+Verismith 1.1.0 (UNKNOWN UNKNOWN)
+=== GHC and Cabal ===
+The Glorious Glasgow Haskell Compilation System, version 8.6.5
+cabal-install version 3.8.1.0
+compiled using version 3.8.1.0 of the Cabal library 
+=== Current checker Yosys ===
+Yosys 0.33 (git sha1 2584903a060)
+=== Historical Yosys builds ===
+Yosys 0.8 (git sha1 5706e9080, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Yosys 0.9 (git sha1 1979e0b1f, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Yosys 0.8+415 (git sha1 3333e002b, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Yosys 0.8+411 (git sha1 70d0f389a, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+=== Exact Yosys bug-commit builds ===
+Yosys 0.8+450 (git sha1 09467bb9a, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Yosys 0.8+498 (git sha1 92dde319f, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Yosys 0.8+618 (git sha1 acd8bc0a7, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Yosys 0.9+932 (git sha1 0466c4853, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+=== Fixed Yosys bug-commit builds ===
+Yosys 0.8+416 (git sha1 b37c31e2c, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Yosys 0.8+452 (git sha1 33738c174, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Yosys 0.8+506 (git sha1 349c47250, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Yosys 0.8+634 (git sha1 39f4c1096, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Yosys 0.9+932 (git sha1 4b18a4528, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+=== Icarus Verilog ===
+Icarus Verilog version 12.0 (stable) ()
+
+Copyright (c) 2000-2021 Stephen Williams (steve@icarus.com)
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+=== Icarus Verilog 10.3 ===
+Icarus Verilog version 10.3 (stable) ()
+
+Copyright 1998-2015 Stephen Williams
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+=== SymbiYosys, Z3, ABC ===
+SBY
+Z3 version 4.8.12 - 64 bit
+
+usage: yosys-abc [-c cmd] [-q cmd] [-C cmd] [-Q cmd] [-f script] [-h] [-o file] [-s] [-t type] [-T type] [-x] [-b] [file]
+    -c cmd	execute commands `cmd'

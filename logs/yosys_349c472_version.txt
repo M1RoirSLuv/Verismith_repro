@@ -1,0 +1,1 @@
+Yosys 0.8+506 (git sha1 349c47250, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)

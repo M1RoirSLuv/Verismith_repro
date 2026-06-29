@@ -1,0 +1,6 @@
+=== current yosys ===
+Yosys 0.33 (git sha1 2584903a060)
+=== old yosys ===
+Yosys 0.9 (git sha1 1979e0b1f, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+=== old source commit ===
+1979e0b1f2482dbf0562f5116ab444280a377773

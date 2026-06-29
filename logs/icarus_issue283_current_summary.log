@@ -1,0 +1,8 @@
+=== iverilog version ===
+Icarus Verilog version 12.0 (stable) ()
+
+Copyright (c) 2000-2021 Stephen Williams (steve@icarus.com)
+=== build log ===
+=== run output ===
+0
+bugs/known_icarus_10_issue283.v:11: $finish called at 10 (1s)

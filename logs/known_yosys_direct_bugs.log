@@ -1,0 +1,15 @@
+=== Yosys Issue 993 direct crash case ===
+Tool: /home/m1roirs/yosys_versions/70d0f38/bin/yosys
+Yosys 0.8+411 (git sha1 70d0f389a, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Issue 993 exit code: 134
+2.8. Executing PEEPOPT pass (run peephole optimizers).
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 18446744073709551615) >= this->size() (which is 0)
+
+=== Yosys Issue 1531 direct mis-synthesis case ===
+Tool: /home/m1roirs/yosys_versions/0.9/bin/yosys
+Yosys 0.9 (git sha1 1979e0b1f, gcc 13.3.0-6ubuntu2~24.04.1 -fPIC -Os)
+Generated netlist excerpt:
+6:  input w;
+9:  always @(posedge clk)
+10:      y <= w;

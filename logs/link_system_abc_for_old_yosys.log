@@ -1,0 +1,13 @@
+﻿system_yosys_abc=/usr/bin/yosys-abc
+=== /home/m1roirs/yosys_versions/0.8/bin ===
+missing
+lrwxrwxrwx 1 m1roirs m1roirs 18 Jun 17 15:52 /home/m1roirs/yosys_versions/0.8/bin/yosys-abc -> /usr/bin/yosys-abc
+=== /home/m1roirs/yosys_versions/0.9/bin ===
+missing
+lrwxrwxrwx 1 m1roirs m1roirs 18 Jun 17 15:52 /home/m1roirs/yosys_versions/0.9/bin/yosys-abc -> /usr/bin/yosys-abc
+=== /home/m1roirs/yosys_versions/3333e002/bin ===
+missing
+lrwxrwxrwx 1 m1roirs m1roirs 18 Jun 17 15:52 /home/m1roirs/yosys_versions/3333e002/bin/yosys-abc -> /usr/bin/yosys-abc
+=== /home/m1roirs/yosys_versions/70d0f38/bin ===
+missing
+lrwxrwxrwx 1 m1roirs m1roirs 18 Jun 17 15:52 /home/m1roirs/yosys_versions/70d0f38/bin/yosys-abc -> /usr/bin/yosys-abc
