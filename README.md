@@ -15,6 +15,7 @@ The reproduced scope is the open-source part of the paper workflow: Verismith, Y
 ├── scripts/          # Organized environment, build, experiment, and analysis scripts
 ├── generated/        # Representative Verismith-generated Verilog samples
 ├── artifacts/        # Intermediate Verilog artifacts for exact-commit comparisons
+├── verismith-0.6.0.2/        # Verismith 0.6.0.2 source snapshot used by the reproduction
 └── logs/         # Key experiment logs
 ```
 
