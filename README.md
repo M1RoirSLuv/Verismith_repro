@@ -33,18 +33,6 @@ The reproduction was performed on Windows + WSL2 Ubuntu.
 | Icarus Verilog | `10.3` and current system version `12.0` |
 | Equivalence backend | SymbiYosys, ABC / `yosys-abc`, Z3 |
 
-The local scripts use these paths:
-
-```bash
-/home/m1roirs/verismith_versions/0.6.0.2/bin/verismith
-/home/m1roirs/yosys_versions/0.8/bin/yosys
-/home/m1roirs/yosys_versions/0.9/bin/yosys
-/home/m1roirs/yosys_versions/3333e002/bin/yosys
-/home/m1roirs/yosys_versions/70d0f38/bin/yosys
-/home/m1roirs/iverilog_versions/10.3/bin/iverilog
-/usr/bin/yosys-abc
-```
-
 If the repository is run on another machine, update absolute paths in `configs/*.toml` and the relevant scripts under `scripts/`.
 
 ## Quick Reproduction
